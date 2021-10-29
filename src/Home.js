@@ -1,5 +1,6 @@
 import React from 'react';
 import NoteList from './NoteList';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -9,7 +10,12 @@ const Home = () => {
         bottom content
       </div>
       <div className="m-auto z-10 text-center bg-warm-gray-50 w-3/6 absolute inset-x-0 inset-y-40 rounded-lg shadow-2xl">
-        <h1>My Notes</h1>
+        <h1 className="text-4xl font-medium text-purple-900 mt-5">My Notes</h1>
+        <Link to="/Create" title="Create a new note" className="bg-gradient-to-r from-green-500 to-cyan-500 hover:from-emerald-500 hover:to-cyan-800 text-white text-center py-2 px-4 rounded-full h-14 w-14 inline-flex items-center shadow-lg absolute right-8 top-7">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+          </svg>
+        </Link>
         <NoteList />
       </div>
     </div>
