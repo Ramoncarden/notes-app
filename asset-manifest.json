@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/notes-app/static/css/main.08890b7d.chunk.css",
+    "main.css": "/notes-app/static/css/main.f6faedf1.chunk.css",
     "main.js": "/notes-app/static/js/main.228c2076.chunk.js",
     "main.js.map": "/notes-app/static/js/main.228c2076.chunk.js.map",
     "runtime-main.js": "/notes-app/static/js/runtime-main.dfbd2355.js",
@@ -10,14 +10,14 @@
     "static/js/3.c09bd7da.chunk.js": "/notes-app/static/js/3.c09bd7da.chunk.js",
     "static/js/3.c09bd7da.chunk.js.map": "/notes-app/static/js/3.c09bd7da.chunk.js.map",
     "index.html": "/notes-app/index.html",
-    "static/css/main.08890b7d.chunk.css.map": "/notes-app/static/css/main.08890b7d.chunk.css.map",
+    "static/css/main.f6faedf1.chunk.css.map": "/notes-app/static/css/main.f6faedf1.chunk.css.map",
     "static/js/2.e6a6fce3.chunk.js.LICENSE.txt": "/notes-app/static/js/2.e6a6fce3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/notes-app/static/media/Midnight City.78c248f7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.dfbd2355.js",
     "static/js/2.e6a6fce3.chunk.js",
-    "static/css/main.08890b7d.chunk.css",
+    "static/css/main.f6faedf1.chunk.css",
     "static/js/main.228c2076.chunk.js"
   ]
 }
