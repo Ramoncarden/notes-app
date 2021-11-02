@@ -22,7 +22,7 @@ const NoteDetails = () => {
   const deleteNote = async () => {
     try {
       await axios.delete(`http://localhost:8000/notes/${id}`);
-      history.push('/');
+      history.push('/notes-app');
     } catch (err) {
       console.error(err);
     }
@@ -54,7 +54,7 @@ const NoteDetails = () => {
               Delete Note
             </button>
             <Link
-              to='/'
+              to='/notes-app'
               className='text-emerald-500 inline-flex items-center ml-4 hover:text-emerald-600'
             >
               Back

@@ -37,10 +37,10 @@ const NoteList = ({ openModal }) => {
                   {note.content}
                 </p>
                 <Link
-                  to={`/notes/${note.id}`}
+                  to={`/notes-app/notes/${note.id}`}
                   className='text-emerald-600 inline-flex items-center mt-4 hover:text-emerald-800'
                 >
-                  Learn More
+                  See Details
                   <svg
                     className='w-4 h-4 ml-2'
                     viewBox='0 0 24 24'

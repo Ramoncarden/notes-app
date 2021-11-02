@@ -7,7 +7,7 @@ const NotFound = () => {
       <h1 className='text-xl'>
         Error. Requested information could not be found
       </h1>
-      <Link className='text-emerald-500 hover:text-emerald-600' to='/'>
+      <Link className='text-emerald-500 hover:text-emerald-600' to='/notes-app'>
         Back
       </Link>
     </div>

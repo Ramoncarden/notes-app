@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import Create from './Create';
 import NoteDetails from './NoteDetails';
@@ -13,22 +13,22 @@ function App() {
   };
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className='App'>
         <Switch>
-          <Route exact path='/'>
+          <Route exact path='/notes-app'>
             <Home openModal={openModal} setShowModal={setShowModal} />
             <Create showModal={showModal} openModal={openModal} />
           </Route>
-          <Route path='/notes/:id'>
+          <Route path='/notes-app/notes/:id'>
             <NoteDetails />
           </Route>
-          <Route path='*'>
+          <Route path='/notes-app/*'>
             <NotFound />
           </Route>
         </Switch>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
