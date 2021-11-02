@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import Create from './Create';
 import NoteDetails from './NoteDetails';
@@ -13,7 +13,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className='App'>
         <Switch>
           <Route exact path='/'>
@@ -28,7 +28,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

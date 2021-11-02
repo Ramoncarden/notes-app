@@ -33,7 +33,7 @@ const NoteDetails = () => {
       <div className='container px-5 py-20 mx-auto flex flex-wrap border-2 items-center'>
         <h2 className='sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5 text-center'>
           {noteDetails.date}
-          <span className='mt-2 text-gray-500 text-sm block '>
+          <span className='mt-2 text-gray-500 text-sm block'>
             {noteDetails.time}
           </span>
         </h2>
