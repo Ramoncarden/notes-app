@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/notes-app/static/css/main.f6faedf1.chunk.css",
-    "main.js": "/notes-app/static/js/main.3c6f74bd.chunk.js",
-    "main.js.map": "/notes-app/static/js/main.3c6f74bd.chunk.js.map",
+    "main.js": "/notes-app/static/js/main.f4a9a02b.chunk.js",
+    "main.js.map": "/notes-app/static/js/main.f4a9a02b.chunk.js.map",
     "runtime-main.js": "/notes-app/static/js/runtime-main.dfbd2355.js",
     "runtime-main.js.map": "/notes-app/static/js/runtime-main.dfbd2355.js.map",
-    "static/js/2.e6a6fce3.chunk.js": "/notes-app/static/js/2.e6a6fce3.chunk.js",
-    "static/js/2.e6a6fce3.chunk.js.map": "/notes-app/static/js/2.e6a6fce3.chunk.js.map",
+    "static/js/2.1e9d7f62.chunk.js": "/notes-app/static/js/2.1e9d7f62.chunk.js",
+    "static/js/2.1e9d7f62.chunk.js.map": "/notes-app/static/js/2.1e9d7f62.chunk.js.map",
     "static/js/3.c09bd7da.chunk.js": "/notes-app/static/js/3.c09bd7da.chunk.js",
     "static/js/3.c09bd7da.chunk.js.map": "/notes-app/static/js/3.c09bd7da.chunk.js.map",
     "index.html": "/notes-app/index.html",
     "static/css/main.f6faedf1.chunk.css.map": "/notes-app/static/css/main.f6faedf1.chunk.css.map",
-    "static/js/2.e6a6fce3.chunk.js.LICENSE.txt": "/notes-app/static/js/2.e6a6fce3.chunk.js.LICENSE.txt",
+    "static/js/2.1e9d7f62.chunk.js.LICENSE.txt": "/notes-app/static/js/2.1e9d7f62.chunk.js.LICENSE.txt",
     "static/media/index.css": "/notes-app/static/media/Midnight City.78c248f7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.dfbd2355.js",
-    "static/js/2.e6a6fce3.chunk.js",
+    "static/js/2.1e9d7f62.chunk.js",
     "static/css/main.f6faedf1.chunk.css",
-    "static/js/main.3c6f74bd.chunk.js"
+    "static/js/main.f4a9a02b.chunk.js"
   ]
 }
