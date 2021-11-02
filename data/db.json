@@ -1,16 +1,11 @@
 {
   "notes": [
     {
-      "title": "Bitters hashtag waistcoat fashion axe chia unicorn",
-      "date": "",
-      "content": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
+      "title": "Test Note",
+      "date": "Mon Nov 01 2021",
+      "content": "This note is a test and it should display a title, message, and both a date and time.",
+      "time": "11:40:00 PM",
       "id": 1
-    },
-    {
-      "title": "Having a blast!",
-      "date": "15 March 1969",
-      "content": "These are the best times",
-      "id": 2
     }
   ]
 }
